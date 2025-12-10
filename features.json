@@ -1,0 +1,45 @@
+{
+  "feature_columns": [
+    "N_Days",
+    "Status",
+    "Drug",
+    "Age",
+    "Sex",
+    "Ascites",
+    "Hepatomegaly",
+    "Spiders",
+    "Edema",
+    "Bilirubin",
+    "Cholesterol",
+    "Albumin",
+    "Copper",
+    "Alk_Phos",
+    "SGOT",
+    "Tryglicerides",
+    "Platelets",
+    "Prothrombin"
+  ],
+  "categorical_columns": [
+    "Status",
+    "Drug",
+    "Sex",
+    "Ascites",
+    "Hepatomegaly",
+    "Spiders",
+    "Edema"
+  ],
+  "numeric_columns": [
+    "N_Days",
+    "Age",
+    "Bilirubin",
+    "Cholesterol",
+    "Albumin",
+    "Copper",
+    "Alk_Phos",
+    "SGOT",
+    "Tryglicerides",
+    "Platelets",
+    "Prothrombin"
+  ],
+  "target_column": "Stage"
+}
